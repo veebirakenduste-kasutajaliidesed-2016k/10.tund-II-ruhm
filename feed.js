@@ -62,6 +62,11 @@ function printTweets(newTweets){
 	     .isotope('prepended', tweetsHTML)
 		 .isotope('layout');
 		 
+	//oota ja siis küsi uuesti
+	window.setTimeout(function(){
+		getTweets();
+	},10000);
+		 
 	
 	
 }
